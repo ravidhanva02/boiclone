@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(18, 18, 39);
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.navbar li {
+    list-style: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+.navbar select {
+    background-color: rgb(18, 18, 39);
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.sec-nav {
+    height: 100px;
+    display: flex;
+}
+
+.logo {
+    margin-left: 70px;
+    margin-top: 8px;
+}
+
+.nav-sec-select {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.nav-sec-select li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-sec-select select {
+    margin-left: 70px;
+    border: none;
+    font-weight: bold;
+}
+.nav-sec-select select option{
+    font-size: 25px;
+}
+
+#btn {
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(21, 118, 215);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+    background-color: rgb(21, 118, 215);
+    margin-top: 5px;
+    height: 30px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.hero {
+    height: 350px;
+
+    display: flex;
+}
+
+.hero1 {
+    width: 30%;
+
+    height: 100%;
+    padding: 30px;
+}
+
+.hero1 #first {
+    font-size: 28px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    color: rgb(21, 118, 215);
+    margin-top: 20px;
+}
+
+.hero1 #sec {
+    margin-top: 20px;
+    font-weight: 18px;
+}
+
+.hero2 {
+    background-image: url(CustomerBanner.png);
+    background-size: cover;
+    width: 60%;
+    height: 100%;
+    border-radius: 0 0 150px;
+    margin-top: 10px;
+
+}
+
+.hero3 {
+    width: 100px;
+    margin-left: 8px;
+    text-align: center;
+    padding: 5px;
+
+
+}
+
+.hero3 button {
+    width: 80px;
+    height: 60px;
+    margin-top: 10px;
+    background-color: rgb(21, 118, 215);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero3 button i {
+    font-size: 23px;
+    color: white;
+}
+
+.hero3 button:hover {
+    background-color: rgb(234, 69, 9);
+}
+
+.second-sec {
+    width: 94%;
+    margin-top: 10px;
+    margin-left: 3%;
+
+}
+
+.second-sec #our {
+    font-size: 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.box1 {
+    width: 500px;
+    height: 220PX;
+    display: flex;
+}
+
+.item {
+    width: 250px;
+    height: 200PX;
+    margin-top: 10px;
+
+}
+
+.item-1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(21, 118, 215);
+    font-weight: bold;
+}
+
+.item-2 {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: -60px;
+}
+
+.item-3 {
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.item-btn {
+    border: 1px solid rgb(21, 118, 215);
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 110px;
+    height: 30px;
+    color: rgb(21, 118, 215);
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.item-btn-over:hover {
+    background-color: black;
+    color: white;
+}
+
+.box2 {
+    width: 500px;
+    height: 220PX;
+    display: flex;
+}
+
+.img1 {
+    background-image: url(first.jpg);
+    width: 250px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 80px 0;
+}
+
+.img2 {
+    background-image: url(second.jpg);
+    width: 250px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 80px 0;
+}
+
+.img3 {
+    background-image: url(third.png);
+    width: 250px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 80px 0;
+}
+
+.img4 {
+    background-image: url(four.jpg);
+    width: 250px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 80px 0;
+}
+
+/*hero  third*/
+
+.hero-third {
+
+    height: 500px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+
+}
+
+.hero-third1 {
+    height: 450px;
+    width: 500px;
+
+    padding: 30px;
+}
+
+.sub-heading {
+    margin-top: 30px;
+}
+
+#hero-third-hr {
+    width: 120px;
+    margin-top: 20px;
+    height: 5px;
+    background-color: rgb(21, 118, 215);
+}
+
+.hero-third2 {
+    height: 450px;
+    width: 500px;
+    background-image: url(hero3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 90px 0;
+}
+
+.hero-third1 p {
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+.hero-four {
+
+    justify-content: center;
+    display: flex;
+}
+
+.img-four {
+    height: 200px;
+    width: 90%;
+    background-image: url(hero-four.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-five {
+    height: 560px;
+    width: 90%;
+    background-image: url(Akira.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 90px 0;
+}
+
+footer {
+    background-color: rgb(32, 30, 30);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 22px;
+    color: white;
+}
